@@ -3,8 +3,6 @@ class Solution {
 		Set<Character> vowels = new HashSet<>(Arrays.asList('a','e','i','o','u','A','E','I','O','U'));
 		int start = 0;
 		int end = word.length() - 1;
-		boolean startFlag = false;
-		boolean endFlag = false;
 		
 		char[] ch = word.toCharArray();
 		
@@ -24,8 +22,8 @@ class Solution {
         }
 		return new String(ch);
     }
-	
-	public void swap(char[] ch, int x, int y) {
+    
+    public void swap(char[] ch, int x, int y) {
 		char temp = ch[x];
 		ch[x] = ch[y];
 		ch[y] = temp;
