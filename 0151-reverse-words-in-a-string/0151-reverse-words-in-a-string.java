@@ -4,17 +4,12 @@ class Solution {
 
 	        StringBuilder result = new StringBuilder();
 	        
-	        for(int i=str.length-1; i>=0; i--) {
+	        for(int i=str.length-1; i>0; i--) {
 	        	if(!str[i].trim().equals("")) {
-	        		result.append(str[i]);
-	        		if(i != 0) {
-	        			result.append(" ");
-	        		}
+	        		result.append(str[i]).append(" ");
 	        	}
 	        }
 	        
-	        result.setLength(result.length());
-	        
-	        return result.toString();
+	        return result.append(str[0]).toString();
 	}
 }
