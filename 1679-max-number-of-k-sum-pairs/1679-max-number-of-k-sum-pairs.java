@@ -11,9 +11,8 @@ class Solution {
         	if(sum == k) {
         		cnt++;
         		left++;
-        	}
-        	
-        	if(sum < k) {
+        		right--;
+        	}else if(sum < k) {
         		left++;
         	}else {
         		right--;
