@@ -1,52 +1,30 @@
 class Solution {
     public boolean closeStrings(String word1, String word2) {
-		if(word1.length() != word2.length()) {
-			return false;
-		}
-		
-		HashMap<Character, Integer> map1 = new HashMap<>();
-		HashMap<Character, Integer> map2 = new HashMap<>();
-        
-		for(char ch : word1.toCharArray()) {
-        	map1.put(ch, map1.getOrDefault(ch, 0) + 1);
-        }
-        
-        for(char ch : word2.toCharArray()) {
-        	map2.put(ch, map2.getOrDefault(ch, 0) + 1);
-        }
-        
-        for(char ch : word1.toCharArray()) {
-        	if(!map2.containsKey(ch)) {
-        		return false;
-        	}
-        }
-        
-        for(char ch : word2.toCharArray()) {
-        	if(!map1.containsKey(ch)) {
-        		return false;
-        	}
-        }
-        
-        ArrayList<Integer> list1 = new ArrayList<>();
-        ArrayList<Integer> list2 = new ArrayList<>();
-        
-        for (Map.Entry<Character, Integer> entry : map1.entrySet()) {
-        	Character key = entry.getKey();
-        	Integer value = entry.getValue();
-        	list1.add(value);
-        	list2.add(map2.get(key));
-        }
-        
-        Collections.sort(list1);
-        Collections.sort(list2);
-        System.out.println(list1.toString());
-        System.out.println(list2.toString());
-        for(int i=0; i<list1.size(); i++) {
-        	if(list1.get(i).compareTo(list2.get(i)) != 0){
-        		return false;
-        	}
-        }
-        
-        return true;
+    if (word1.length() != word2.length()) {
+        return false;
     }
+
+    Map<Character, Integer> map1 = buildCharacterFrequencyMap(word1);
+    Map<Character, Integer> map2 = buildCharacterFrequencyMap(word2);
+
+    if (!map1.keySet().equals(map2.keySet())) {
+        return false;
+    }
+
+    List<Integer> frequencies1 = new ArrayList<>(map1.values());
+    List<Integer> frequencies2 = new ArrayList<>(map2.values());
+
+    Collections.sort(frequencies1);
+    Collections.sort(frequencies2);
+
+    return frequencies1.equals(frequencies2);
+}
+
+private Map<Character, Integer> buildCharacterFrequencyMap(String word) {
+    Map<Character, Integer> frequencyMap = new HashMap<>();
+    for (char ch : word.toCharArray()) {
+        frequencyMap.put(ch, frequencyMap.getOrDefault(ch, 0) + 1);
+    }
+    return frequencyMap;
+}
 }
