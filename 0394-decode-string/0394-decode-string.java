@@ -12,9 +12,8 @@ class Solution {
         			cnt = 10 * cnt + (s.charAt(i) - '0');
         			i++;
         		}
-        		countStack.push(cnt);
         		i--;
-        		continue;
+        		countStack.push(cnt);
         	}else if (ch == '[') {
         		resStack.push(result.toString());
         		result.setLength(0);
