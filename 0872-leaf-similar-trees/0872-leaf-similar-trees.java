@@ -13,30 +13,21 @@
  *     }
  * }
  */
-class Solution {    
+class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        List<Integer> leafOne = new ArrayList<Integer>();
-        List<Integer> leafTwo = new ArrayList<Integer>(); 
+        List<Integer> leafOne = findLeafValues(root1);
+        List<Integer> leafTwo = findLeafValues(root2);
         
-        findLeaf(root1, leafOne);
-        findLeaf(root2, leafTwo);
-        
-        if(leafOne.size() != leafTwo.size()){
-            return false;
-        }
-        
-        for(int i = 0; i < leafOne.size(); i++){
-            int one = leafOne.get(i);
-            int two = leafTwo.get(i);
-            if(one != two){
-                return false;
-            }
-        }
-        
-        return true;
+        return leafOne.equals(leafTwo);
     }
     
-    public void findLeaf(TreeNode root, List<Integer> leaf){
+    private List<Integer> findLeafValues(TreeNode root){
+        List<Integer> leaf = new ArrayList<Integer>();
+        findLeafValue(root, leaf);
+        return leaf;
+    }
+    
+    private void findLeafValue(TreeNode root, List<Integer> leaf){
         if(root == null){
             return;
         }
@@ -46,8 +37,7 @@ class Solution {
             return;
         }
         
-        findLeaf(root.left, leaf);
-        findLeaf(root.right, leaf);
+        findLeafValue(root.left, leaf);
+        findLeafValue(root.right, leaf);
     }
-    
 }
