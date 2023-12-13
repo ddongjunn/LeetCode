@@ -13,7 +13,7 @@ public class Solution extends GuessGame {
         int end = n;
         
         while(start <= end){
-            int mid = start + (end-start) / 2;
+            int mid = start + ((end-start) / 2);
             int result = guess(mid);
             
             if(result == 0){
