@@ -2,18 +2,14 @@ import java.util.*;
 
 class Solution {
     public int arrayPairSum(int[] nums) {
-        ArrayList<Integer> pair = new ArrayList<>();
         Arrays.sort(nums);
-        
+
         int sum = 0;
-        for(int n : nums){
-            pair.add(n);
-            
-            if(pair.size() == 2){
-                sum += Collections.min(pair);
-                pair.clear();
+        for(int i = 0; i < nums.length; i++){
+            if(i % 2 == 0){
+                sum += nums[i];
             }
-        }
+        }        
         
         return sum;
     }
