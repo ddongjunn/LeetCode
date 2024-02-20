@@ -10,20 +10,18 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        Stack<Integer> stack = new Stack<Integer>();
-        
+        Deque<Integer> deque = new LinkedList<>();
         ListNode node = head;
         while(node != null){
-            stack.add(node.val);
+            deque.add(node.val);
             node = node.next;
         }
         
-        while(head != null){
-            if(stack.pop() != head.val){
+        while(!deque.isEmpty() && deque.size() > 1){
+            if(deque.pollFirst() != deque.pollLast()){
                 return false;
             }
-            head = head.next;   
         }
-        return true;   
+        return true;
     }
 }
