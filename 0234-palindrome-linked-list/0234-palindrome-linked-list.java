@@ -19,12 +19,9 @@ class Solution {
         }
         
         while(head != null){
-            int val = stack.peek();
-            if(val != head.val){
+            if(stack.pop() != head.val){
                 return false;
             }
-            
-            stack.pop();
             head = head.next;   
         }
         return true;   
