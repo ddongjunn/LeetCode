@@ -19,23 +19,11 @@ class Solution {
             return null;
         }
         
-        Queue<TreeNode> q = new LinkedList();
-        q.offer(root);
-        while(!q.isEmpty()) {
-            TreeNode node = q.poll();
-            
-            TreeNode tmp = node.left;
-            node.left = node.right;
-            node.right = tmp;
-            
-            if(node.left != null) {
-                q.offer(node.left);
-            }
-            
-            if(node.right != null) {
-                q.offer(node.right);
-            }
-        }
+        TreeNode left = invertTree(root.left);
+        TreeNode right = invertTree(root.right);
+        
+        root.left = right;
+        root.right = left;
         
         return root;
     }
