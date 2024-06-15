@@ -3,19 +3,12 @@ import java.util.HashMap;
 
 class Solution {
     public int numIdenticalPairs(int[] nums) {
-        Map<Integer, Integer> map = new HashMap();
+        int[] cnt = new int[101];
         
+        int result = 0;
         for(int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+            result += cnt[num]++;    
         }
-        
-        int answer = 0;
-        for(int count : map.values()) {
-            if(count > 1) {
-                answer += count * (count - 1) / 2;
-            }
-        }
-        
-        return answer;
+        return result;
     }
 }
