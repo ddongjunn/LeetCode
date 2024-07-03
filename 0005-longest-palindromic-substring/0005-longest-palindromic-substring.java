@@ -4,7 +4,7 @@ class Solution {
     
     public String longestPalindrome(String s) { 
         if(s.length() < 2) {
-            return s.substring(0, 1);
+            return s;
         }
         
         for(int i = 0; i < s.length(); i++) {
