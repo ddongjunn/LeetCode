@@ -1,29 +1,28 @@
 class Solution {
-    int left, right;
+    int left = 0;
+    int max = Integer.MIN_VALUE;
     
-    public String longestPalindrome(String s) {
-        char[] chars = s.toCharArray();
-        if(s.length() < 2){
-            return s;
+    public String longestPalindrome(String s) { 
+        if(s.length() < 2) {
+            return s.substring(0, 1);
         }
         
-        for(int i = 0; i < chars.length; i++){
-            expendPalindrome(chars, i, i);
-            expendPalindrome(chars, i, i + 1);
-        }
-        
-        return s.substring(left, left + right);
+        for(int i = 0; i < s.length(); i++) {
+            palindrome(s, i, i + 1);
+            palindrome(s, i, i + 2);
+        }        
+        return s.substring(left, left + max);
     }
     
-    public void expendPalindrome(char[] chars, int i, int j){
-        while(i >= 0 && j < chars.length && chars[i] == chars[j]){
-            i--;
-            j++;
+    public void palindrome(String s, int start, int end) {
+        while(start >= 0 && end < s.length() && s.charAt(start) == s.charAt(end)) {
+            start--;
+            end++;
         }
         
-        if(right < j - i - 1){
-            left = i + 1;
-            right = j - i - 1;
+        if(max < end - start - 1) {
+            left = start + 1;
+            max = end - start - 1;
         }
     }
 }
