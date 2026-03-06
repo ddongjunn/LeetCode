@@ -1,25 +1,25 @@
 class Solution {
     public boolean checkZeroOnes(String s) {
-        int maxLength0 = 0;
-        int maxLength1 = 0;
-        int count0 = 0;
-        int count1 = 0;
+        int currentOne = 0;
+        int currentZero = 0;
 
-        for (char c : s.toCharArray()) {
-            if (c == '1') {
-                count1++;
-                maxLength0 = Math.max(count0, maxLength0);
-                count0 = 0;
-            }
+        int maxOne = 0;
+        int maxZero = 0;
 
-            if (c == '0') {
-                count0++;
-                maxLength1 = Math.max(count1, maxLength1);
-                count1 = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
+            if (ch == '1') {
+                currentOne++;
+                currentZero = 0;
+                maxOne = Math.max(maxOne, currentOne);
+            } else {
+                currentZero++;
+                currentOne = 0;
+                maxZero = Math.max(maxZero, currentZero);
             }
         }
-        maxLength0 = Math.max(count0, maxLength0);
-        maxLength1 = Math.max(count1, maxLength1);
-        return maxLength1 > maxLength0;
+
+        return maxOne > maxZero;
     }
 }
