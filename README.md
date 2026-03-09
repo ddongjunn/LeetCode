@@ -18,4 +18,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/ddongjunn/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ddongjunn/LeetCode/tree/master/1869-longer-contiguous-segments-of-ones-than-zeros) |
+## Array
+|  |
+| ------- |
+| [0485-max-consecutive-ones](https://github.com/ddongjunn/LeetCode/tree/master/0485-max-consecutive-ones) |
 <!---LeetCode Topics End-->
