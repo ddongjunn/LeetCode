@@ -10,12 +10,12 @@ class Solution {
             }
 
             while (zero > k) {
-                if (nums[left] == 0) {
+                if (nums[left] == 0){
                     zero--;
                 }
                 left++;
             }
-            
+
             len = Math.max(len, right - left + 1);
         }
         return len;
