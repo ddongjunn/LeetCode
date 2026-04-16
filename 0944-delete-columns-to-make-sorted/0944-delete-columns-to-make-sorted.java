@@ -2,26 +2,16 @@ class Solution {
     public int minDeletionSize(String[] strs) {
         int answer = 0;
 
-        int row = strs[0].length();
-        int col = strs.length;
-        
-        for (int i = 0; i < row; i++) {
-            StringBuilder sb = new StringBuilder();
-            for (int j = 0; j < col; j++) {
-                sb.append(strs[j].charAt(i));
-            }
-
-            char[] ch = sb.toString().toCharArray();
-            char[] ch2 = sb.toString().toCharArray();
-            Arrays.sort(ch2);
-            for (int j = 0; j < ch.length; j++) {
-                if (ch[j] != ch2[j]) {
+        int rows = strs.length;
+        int cols = strs[0].length();
+        for (int col = 0; col < cols; col++) {
+            for (int row = 1; row < rows; row++) {
+                if (strs[row].charAt(col) < strs[row - 1].charAt(col)) {
                     answer++;
-                    break;
+                    break;    
                 }
             }
         }
-
         return answer;
     }
 }
