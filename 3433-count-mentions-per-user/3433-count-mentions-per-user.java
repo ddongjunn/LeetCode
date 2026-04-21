@@ -6,56 +6,39 @@ class Solution {
                 .thenComparing(e -> e.get(0).equals("OFFLINE") ? 0 : 1)
         );
 
-        Map<Integer, Integer> offlineMap = new HashMap<>();
         int[] answer = new int[numberOfUsers];
+        int[] offline = new int[numberOfUsers];
         
-        for (int i = 0; i < events.size(); i++) {
-            List<String> event = events.get(i);
-        
+        for (List<String> event : events) {
             String type = event.get(0);
-            Integer timestamp = Integer.parseInt(event.get(1));
-            String mentions = event.get(2);
+            int timestamp = Integer.parseInt(event.get(1));
+            String value = event.get(2);
 
-            List<Integer> removeIds = new ArrayList();
-            offlineMap.forEach((k, v) -> {
-                if (v + 60 <= timestamp) {
-                    removeIds.add(k);
-                }
-            });
-            removeIds.forEach(j -> offlineMap.remove(j));
-
-            if (("OFFLINE").equals(type)) {
-                offlineMap.put(Integer.parseInt(mentions), timestamp);
+            if ("OFFLINE".equals(type)) {
+                int id = Integer.parseInt(value);
+                offline[id] = timestamp + 60;
                 continue;
             }
 
-            if (("MESSAGE").equals(type)) {
-                if ("ALL".equals(mentions)) {
-                    for (int j = 0; j < answer.length; j++){
-                        answer[j]++;
+            if ("ALL".equals(value)) {
+                for (int i = 0; i < numberOfUsers; i++) {
+                    answer[i]++;
+                }
+                continue;
+            }
+
+            if ("HERE".equals(value)) {
+                for (int i = 0; i < numberOfUsers; i++) {
+                    if (offline[i] <= timestamp) {
+                        answer[i]++;
                     }
-                    continue; 
                 }
+                continue;
+            }
 
-                Set<Integer> offlineSet = new HashSet();
-                if ("HERE".equals(mentions)) {
-                    offlineMap.entrySet().forEach(entry -> {
-                        offlineSet.add(entry.getKey());
-                    });
-                    
-                    for (int j = 0; j < answer.length; j++) {
-                        if (!offlineSet.contains(j)) {
-                            answer[j]++;
-                        }
-                    }
-                    continue;
-                }
-
-                int[] ids = Arrays.stream(mentions.replace("id","").split(" ")).mapToInt(Integer::parseInt).toArray();
-
-                for (int j = 0; j < ids.length; j++) {
-                    answer[ids[j]]++;
-                }
+            for (String mention : value.split(" ")) {
+                int id = Integer.parseInt(mention.substring(2));
+                answer[id]++;
             }
         }
 
