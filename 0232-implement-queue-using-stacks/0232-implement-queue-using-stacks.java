@@ -1,28 +1,36 @@
 class MyQueue {
-    Deque<Integer> input = new ArrayDeque<>();
-    Deque<Integer> output = new ArrayDeque<>();
-        
+    private final Deque<Integer> inStack;
+    private final Deque<Integer> outStack;
+
+    public MyQueue() {
+        inStack = new ArrayDeque<>();
+        outStack = new ArrayDeque<>();
+    }
+    
     public void push(int x) {
-        input.push(x);
+        inStack.push(x);
     }
     
     public int pop() {
-        peek();
-        return output.pop();
+        moveIfNeeded();
+        return outStack.pop();
     }
     
     public int peek() {
-        if(output.isEmpty()){
-            while(!input.isEmpty()){
-                output.push(input.pop());
-            }
-        }
-        
-        return output.peek();
+        moveIfNeeded();
+        return outStack.peek();
     }
     
     public boolean empty() {
-        return input.isEmpty() &&output.isEmpty();
+        return inStack.isEmpty() && outStack.isEmpty();
+    }
+
+    private void moveIfNeeded() {
+        if (outStack.isEmpty()) {
+            while (!inStack.isEmpty()) {
+                outStack.push(inStack.pop());
+            }
+        }
     }
 }
 
