@@ -1,7 +1,8 @@
 class Solution {
-    ArrayDeque<Character> stack = new ArrayDeque<>();
+    Map<Character, Character> map = Map.of(')','(','}','{',']','[');
 
     public boolean isValid(String s) {
+        ArrayDeque<Character> stack = new ArrayDeque<>();
         char[] ch = s.toCharArray();
 
         for (int i = 0; i < ch.length; i++) {
@@ -10,8 +11,14 @@ class Solution {
                 continue;
             }
 
-            if (isMatched(ch[i])) {
-                stack.pop();
+            if (stack.isEmpty()) {
+                return false;
+            }
+
+            char open = stack.pop();
+            char close = ch[i];
+            if (isMatched(open, close)) {
+                continue;
             } else {
                 return false;
             }
@@ -20,10 +27,8 @@ class Solution {
         return stack.isEmpty();
     }
 
-    private boolean isMatched(char bracket) {
-        var map = Map.of(')','(','}','{',']','[');
-        char pair = map.get(bracket);
-        return (!stack.isEmpty() && stack.peek() == pair);
+    private boolean isMatched(char open, char close) {
+        return open == map.get(close);
     }
 }
 
