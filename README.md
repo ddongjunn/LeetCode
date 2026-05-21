@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ddongjunn/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/0020-valid-parentheses) |
 | [0424-longest-repeating-character-replacement](https://github.com/ddongjunn/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/ddongjunn/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/0020-valid-parentheses) |
 | [0155-min-stack](https://github.com/ddongjunn/LeetCode/tree/master/0155-min-stack) |
 ## Design
 |  |
