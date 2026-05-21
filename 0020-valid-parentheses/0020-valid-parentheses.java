@@ -1,21 +1,34 @@
 class Solution {
-    
-    private static final Map<Character, Character> PAIR_MAPPING = Map.of(')','(','}','{',']','[');
-    
-    public boolean isValid(String s) {    
-        Deque<Character> stack = new ArrayDeque<>();
-        
-        for(char ch : s.toCharArray()){
-            if(!PAIR_MAPPING.containsKey(ch)){
-                stack.push(ch);
-                continue;
-            }    
-            
-            if(stack.isEmpty() || PAIR_MAPPING.get(ch) != stack.pop()){
-                return false;
+    public boolean isValid(String s) {
+        char[] ch = s.toCharArray();
+
+        ArrayDeque<Character> stack = new ArrayDeque<>();
+        for (int i = 0; i < ch.length; i++) {
+
+            if (ch[i] == ')') {
+                if (!stack.isEmpty() && stack.peek() == '(') {
+                    stack.pop();
+                    continue;
+                }
             }
+
+            if (ch[i] == '}') {
+                if (!stack.isEmpty() && stack.peek() == '{') {
+                    stack.pop();
+                    continue;
+                }
+            }
+
+            if (ch[i] == ']') {
+                if (!stack.isEmpty() && stack.peek() == '[') {
+                    stack.pop();
+                    continue;
+                }
+            }
+
+            stack.push(ch[i]);
         }
         
         return stack.isEmpty();
-    }       
+    }
 }
