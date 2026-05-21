@@ -1,13 +1,14 @@
 class Solution {
-    Map<Character, Character> map = Map.of(')','(','}','{',']','[');
+    private final Map<Character, Character> map = Map.of(')','(','}','{',']','[');
 
     public boolean isValid(String s) {
         ArrayDeque<Character> stack = new ArrayDeque<>();
         char[] ch = s.toCharArray();
 
         for (int i = 0; i < ch.length; i++) {
-            if (ch[i] == '(' || ch[i] == '{' || ch[i] == '[') {
-                stack.push(ch[i]);
+            char cur = ch[i];
+            if (cur == '(' || cur == '{' || cur == '[') {
+                stack.push(cur);
                 continue;
             }
 
@@ -16,10 +17,8 @@ class Solution {
             }
 
             char open = stack.pop();
-            char close = ch[i];
-            if (isMatched(open, close)) {
-                continue;
-            } else {
+            char close = cur;
+            if (!isMatched(open, close)) {
                 return false;
             }
         }
