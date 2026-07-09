@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ddongjunn/LeetCode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/ddongjunn/LeetCode/tree/master/0015-3sum) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ddongjunn/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0485-max-consecutive-ones](https://github.com/ddongjunn/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/ddongjunn/LeetCode/tree/master/0015-3sum) |
 | [0242-valid-anagram](https://github.com/ddongjunn/LeetCode/tree/master/0242-valid-anagram) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ddongjunn/LeetCode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/ddongjunn/LeetCode/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/ddongjunn/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/ddongjunn/LeetCode/tree/master/0567-permutation-in-string) |
