@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/ddongjunn/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/ddongjunn/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
+| [0977-squares-of-a-sorted-array](https://github.com/ddongjunn/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/ddongjunn/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/ddongjunn/LeetCode/tree/master/1848-minimum-distance-to-the-target-element) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/ddongjunn/LeetCode/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ddongjunn/LeetCode/tree/master/0015-3sum) |
 | [0242-valid-anagram](https://github.com/ddongjunn/LeetCode/tree/master/0242-valid-anagram) |
+| [0977-squares-of-a-sorted-array](https://github.com/ddongjunn/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ddongjunn/LeetCode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
 ## Simulation
@@ -136,4 +138,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/ddongjunn/LeetCode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/ddongjunn/LeetCode/tree/master/0567-permutation-in-string) |
+| [0977-squares-of-a-sorted-array](https://github.com/ddongjunn/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 <!---LeetCode Topics End-->
