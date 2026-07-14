@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/ddongjunn/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0347-top-k-frequent-elements](https://github.com/ddongjunn/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/ddongjunn/LeetCode/tree/master/0485-max-consecutive-ones) |
+| [0704-binary-search](https://github.com/ddongjunn/LeetCode/tree/master/0704-binary-search) |
 | [0881-boats-to-save-people](https://github.com/ddongjunn/LeetCode/tree/master/0881-boats-to-save-people) |
 | [0904-fruit-into-baskets](https://github.com/ddongjunn/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ddongjunn/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0704-binary-search](https://github.com/ddongjunn/LeetCode/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/ddongjunn/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 ## Sliding Window
 |  |
