@@ -1,33 +1,22 @@
 class Solution {
-    private final Map<Character, Character> map = Map.of(')','(','}','{',']','[');
-
     public boolean isValid(String s) {
-        ArrayDeque<Character> stack = new ArrayDeque<>();
-        char[] ch = s.toCharArray();
+        Map<Character, Character> pair = Map.of(
+            ')', '(',
+            '}', '{',
+            ']', '['
+        );
 
-        for (int i = 0; i < ch.length; i++) {
-            char cur = ch[i];
-            if (cur == '(' || cur == '{' || cur == '[') {
-                stack.push(cur);
+        Deque<Character> stack = new ArrayDeque<>();
+        for (char ch : s.toCharArray()) {
+            if (ch == '(' || ch ==  '{' || ch == '[') {
+                stack.push(ch);
                 continue;
             }
 
-            if (stack.isEmpty()) {
-                return false;
-            }
-
-            char open = stack.pop();
-            char close = cur;
-            if (!isMatched(open, close)) {
+            if (stack.isEmpty() || pair.get(ch) != stack.pop()) {
                 return false;
             }
         }
-        
         return stack.isEmpty();
     }
-
-    private boolean isMatched(char open, char close) {
-        return open == map.get(close);
-    }
 }
-
