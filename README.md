@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ddongjunn/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/ddongjunn/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/ddongjunn/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/ddongjunn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0704-binary-search](https://github.com/ddongjunn/LeetCode/tree/master/0704-binary-search) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
 | [0881-boats-to-save-people](https://github.com/ddongjunn/LeetCode/tree/master/0881-boats-to-save-people) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/ddongjunn/LeetCode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/ddongjunn/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/ddongjunn/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/ddongjunn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
 ## Design
 |  |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ddongjunn/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/ddongjunn/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/ddongjunn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
 ## Union-Find
 |  |
