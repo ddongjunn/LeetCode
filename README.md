@@ -143,11 +143,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ddongjunn/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ddongjunn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/ddongjunn/LeetCode/tree/master/0901-online-stock-span) |
 ## Design
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ddongjunn/LeetCode/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/ddongjunn/LeetCode/tree/master/0232-implement-queue-using-stacks) |
+| [0901-online-stock-span](https://github.com/ddongjunn/LeetCode/tree/master/0901-online-stock-span) |
 ## Enumeration
 |  |
 | ------- |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ddongjunn/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ddongjunn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/ddongjunn/LeetCode/tree/master/0901-online-stock-span) |
 ## Union-Find
 |  |
 | ------- |
@@ -213,4 +216,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/ddongjunn/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/ddongjunn/LeetCode/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
