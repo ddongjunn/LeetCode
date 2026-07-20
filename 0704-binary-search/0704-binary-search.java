@@ -11,9 +11,9 @@ class Solution {
             }
 
             if (nums[mid] < target) {
-                left++;
+                left = mid + 1;
             } else {
-                right--;
+                right = mid - 1;
             }
         }
         return -1;
