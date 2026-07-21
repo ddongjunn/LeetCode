@@ -1,10 +1,9 @@
 class Solution {
     public boolean isValid(String s) {
-        var map = Map.of('(',')','[',']','{','}');
+        var map = Map.of('(',')','{','}','[',']');
         var stack = new ArrayDeque<Character>();
 
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
+        for (char ch : s.toCharArray()) {
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
                 continue;
@@ -14,10 +13,13 @@ class Solution {
                 return false;
             }
 
-            if (map.get(stack.pop()) != ch) {
+            if (map.get(stack.peek()) != ch) {
                 return false;
             }
+
+            stack.pop();
         }
         return stack.isEmpty();
+        
     }
 }
