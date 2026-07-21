@@ -13,11 +13,9 @@ class Solution {
                 return false;
             }
 
-            if (map.get(stack.peek()) != ch) {
+            if (map.get(stack.pop()) != ch) {
                 return false;
             }
-
-            stack.pop();
         }
         return stack.isEmpty();
         
