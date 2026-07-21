@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/ddongjunn/LeetCode/tree/master/0035-search-insert-position) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ddongjunn/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0278-first-bad-version](https://github.com/ddongjunn/LeetCode/tree/master/0278-first-bad-version) |
 | [0704-binary-search](https://github.com/ddongjunn/LeetCode/tree/master/0704-binary-search) |
 | [1004-max-consecutive-ones-iii](https://github.com/ddongjunn/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 ## Sliding Window
@@ -226,4 +227,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/ddongjunn/LeetCode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
