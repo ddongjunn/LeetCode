@@ -16,8 +16,6 @@ class Solution {
             } else {
                 right = mid - 1;
             }
-
-            System.out.println(left + " " + right);
         }
         return right;
     }
