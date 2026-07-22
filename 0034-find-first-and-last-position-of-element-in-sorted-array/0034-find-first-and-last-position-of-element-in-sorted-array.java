@@ -1,42 +1,41 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
+        return new int[]{findStart(nums, target), findEnd(nums, target)};
+    }
+
+    public int findStart(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
-
+        int idx = -1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
-
-            if (nums[mid] == target) {
-                int start = mid;
-                int end = mid;
-                for (int i = mid; i > 0; i--){
-                    if (nums[i - 1] != target) {
-                        start = i;
-                        break;
-                    } else {
-                        start = i - 1;
-                    }
-                }
-
-                for (int i = mid; i < nums.length - 1; i++) {
-                    if (nums[i + 1] != target) {
-                        end = i;
-                        break;
-                    } else {
-                        end = i + 1;
-                    }
-                }
-
-                return new int[]{start, end};
-            }
-
             if (nums[mid] < target) {
                 left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid - 1;
             } else {
+                idx = mid;
                 right = mid - 1;
             }
         }
+        return idx;
+    }
 
-        return new int[]{-1, -1};
+    public int findEnd(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        int idx = -1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < target) {
+                left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid - 1;
+            } else {
+                idx = mid;
+                left = mid + 1;
+            }
+        }
+        return idx;
     }
 }
