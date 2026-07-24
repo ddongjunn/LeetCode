@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ddongjunn/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0162-find-peak-element](https://github.com/ddongjunn/LeetCode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/ddongjunn/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/ddongjunn/LeetCode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/ddongjunn/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ddongjunn/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -239,9 +241,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
 ## Interactive
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/ddongjunn/LeetCode/tree/master/0278-first-bad-version) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
