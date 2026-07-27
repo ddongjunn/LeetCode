@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/ddongjunn/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0722-remove-comments](https://github.com/ddongjunn/LeetCode/tree/master/0722-remove-comments) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/ddongjunn/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ddongjunn/LeetCode/tree/master/1869-longer-contiguous-segments-of-ones-than-zeros) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/ddongjunn/LeetCode/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/ddongjunn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/ddongjunn/LeetCode/tree/master/0901-online-stock-span) |
+| [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 ## Design
 |  |
 | ------- |
