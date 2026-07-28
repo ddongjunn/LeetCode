@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/ddongjunn/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0722-remove-comments](https://github.com/ddongjunn/LeetCode/tree/master/0722-remove-comments) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
+| [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/ddongjunn/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ddongjunn/LeetCode/tree/master/1869-longer-contiguous-segments-of-ones-than-zeros) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/ddongjunn/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/ddongjunn/LeetCode/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/ddongjunn/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
+| [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/ddongjunn/LeetCode/tree/master/1848-minimum-distance-to-the-target-element) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/ddongjunn/LeetCode/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ddongjunn/LeetCode/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/ddongjunn/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/ddongjunn/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
+| [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
 ## Backtracking
 |  |
 | ------- |
@@ -150,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/ddongjunn/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0881-boats-to-save-people](https://github.com/ddongjunn/LeetCode/tree/master/0881-boats-to-save-people) |
 | [0977-squares-of-a-sorted-array](https://github.com/ddongjunn/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ddongjunn/LeetCode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
 ## Simulation
