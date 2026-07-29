@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0722-remove-comments](https://github.com/ddongjunn/LeetCode/tree/master/0722-remove-comments) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/ddongjunn/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0874-walking-robot-simulation](https://github.com/ddongjunn/LeetCode/tree/master/0874-walking-robot-simulation) |
 | [0881-boats-to-save-people](https://github.com/ddongjunn/LeetCode/tree/master/0881-boats-to-save-people) |
 | [0904-fruit-into-baskets](https://github.com/ddongjunn/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/ddongjunn/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/ddongjunn/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/ddongjunn/LeetCode/tree/master/0567-permutation-in-string) |
+| [0874-walking-robot-simulation](https://github.com/ddongjunn/LeetCode/tree/master/0874-walking-robot-simulation) |
 | [0904-fruit-into-baskets](https://github.com/ddongjunn/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/ddongjunn/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-walking-robot-simulation](https://github.com/ddongjunn/LeetCode/tree/master/0874-walking-robot-simulation) |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
 ## Stack
