@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ddongjunn/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/ddongjunn/LeetCode/tree/master/0547-number-of-provinces) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -280,13 +281,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/ddongjunn/LeetCode/tree/master/0547-number-of-provinces) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/ddongjunn/LeetCode/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/ddongjunn/LeetCode/tree/master/0547-number-of-provinces) |
 | [0994-rotting-oranges](https://github.com/ddongjunn/LeetCode/tree/master/0994-rotting-oranges) |
 ## Counting Sort
 |  |
 | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/ddongjunn/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/ddongjunn/LeetCode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
