@@ -1,35 +1,56 @@
 class Solution {
     public List<String> invalidTransactions(String[] transactions) {
-        // 이름, 시간, 금액, 지역
-        // 1. 금액이 1000달러 초과
-        // 2. 60분 이내 동일한 이름으로 다른 도시 내역
+        List<String> ans = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
 
-        boolean[] invalid = new boolean[transactions.length];
         for (int i = 0; i < transactions.length; i++) {
-            String[] t1 = transactions[i].split(",");
-            if (Integer.parseInt(t1[2]) > 1000) {
-                invalid[i] = true;
+            Transaction tx1 = new Transaction(transactions[i]);
+
+            if (tx1.amount > 1000) {
+                if (!set.contains(i)) {
+                    ans.add(transactions[i]);
+                    set.add(i);
+                }
             }
 
             for (int j = i + 1; j < transactions.length; j++) {
-                String[] t2 = transactions[j].split(",");
-                int time1 = Integer.parseInt(t1[1]);
-                int time2 = Integer.parseInt(t2[1]);
-                if (Math.abs(time1 - time2) <= 60 && t1[0].equals(t2[0]) && !t1[3].equals(t2[3]))
-                {
-                    invalid[i] = true;
-                    invalid[j] = true;
-                } 
+                Transaction tx2 = new Transaction(transactions[j]);
+
+                if (tx2.amount > 1000) {
+                    if (!set.contains(j)) {
+                        ans.add(transactions[j]);
+                        set.add(j);
+                    }
+                }
+
+                if (tx1.name.equals(tx2.name) && !tx1.city.equals(tx2.city) && Math.abs(tx2.time - tx1.time) <= 60) {
+                    if (!set.contains(i)) {
+                        ans.add(transactions[i]);
+                        set.add(i);
+                    }
+
+                    if (!set.contains(j)) {
+                        ans.add(transactions[j]);
+                        set.add(j);
+                    }
+                }
             }
         }
-
-        List<String> ans = new ArrayList<>();
-        for (int i = 0; i < invalid.length; i++) {
-            if (invalid[i]) {
-                ans.add(transactions[i]);
-            }
-        }
-
         return ans;
+    }
+}
+
+class Transaction {
+    String name;
+    int time;
+    int amount;
+    String city;
+
+    Transaction (String info) {
+        String[] str = info.split(",");
+        this.name = str[0];
+        this.time = Integer.parseInt(str[1]);
+        this.amount = Integer.parseInt(str[2]);
+        this.city = str[3];
     }
 }
