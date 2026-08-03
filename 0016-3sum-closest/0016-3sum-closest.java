@@ -17,9 +17,7 @@ class Solution {
 
                 if (Math.abs(sum - target) < Math.abs(closestSum - target)){
                     closestSum = sum;
-                }
-
-                if (sum < target) {
+                }else if (sum < target) {
                     left++;
                 } else if (sum > target) {
                     right--;
