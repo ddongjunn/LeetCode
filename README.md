@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ddongjunn/LeetCode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/ddongjunn/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0722-remove-comments](https://github.com/ddongjunn/LeetCode/tree/master/0722-remove-comments) |
+| [0796-rotate-string](https://github.com/ddongjunn/LeetCode/tree/master/0796-rotate-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -307,4 +308,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/ddongjunn/LeetCode/tree/master/0547-number-of-provinces) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/ddongjunn/LeetCode/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
