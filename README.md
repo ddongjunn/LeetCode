@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0722-remove-comments](https://github.com/ddongjunn/LeetCode/tree/master/0722-remove-comments) |
 | [0771-jewels-and-stones](https://github.com/ddongjunn/LeetCode/tree/master/0771-jewels-and-stones) |
 | [0796-rotate-string](https://github.com/ddongjunn/LeetCode/tree/master/0796-rotate-string) |
+| [0844-backspace-string-compare](https://github.com/ddongjunn/LeetCode/tree/master/0844-backspace-string-compare) |
 | [0944-delete-columns-to-make-sorted](https://github.com/ddongjunn/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/ddongjunn/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0844-backspace-string-compare](https://github.com/ddongjunn/LeetCode/tree/master/0844-backspace-string-compare) |
 | [0874-walking-robot-simulation](https://github.com/ddongjunn/LeetCode/tree/master/0874-walking-robot-simulation) |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ddongjunn/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ddongjunn/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/ddongjunn/LeetCode/tree/master/0739-daily-temperatures) |
+| [0844-backspace-string-compare](https://github.com/ddongjunn/LeetCode/tree/master/0844-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/ddongjunn/LeetCode/tree/master/0901-online-stock-span) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/ddongjunn/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -237,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/ddongjunn/LeetCode/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/ddongjunn/LeetCode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/ddongjunn/LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [0844-backspace-string-compare](https://github.com/ddongjunn/LeetCode/tree/master/0844-backspace-string-compare) |
 | [0881-boats-to-save-people](https://github.com/ddongjunn/LeetCode/tree/master/0881-boats-to-save-people) |
 | [0977-squares-of-a-sorted-array](https://github.com/ddongjunn/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Greedy
