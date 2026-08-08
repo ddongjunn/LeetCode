@@ -33,8 +33,6 @@ class Solution {
             if (board[i][i] != player) diag1 = false;
             if (board[i][3 - 1 - i] != player) diag2 = false;
         }
-        if (diag1 || diag2) return true;
-
-        return false;
+        return diag1 || diag2;
     }
 }
