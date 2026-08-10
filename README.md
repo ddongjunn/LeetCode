@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/ddongjunn/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ddongjunn/LeetCode/tree/master/1869-longer-contiguous-segments-of-ones-than-zeros) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/ddongjunn/LeetCode/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/ddongjunn/LeetCode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/ddongjunn/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Array
 |  |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0874-walking-robot-simulation](https://github.com/ddongjunn/LeetCode/tree/master/0874-walking-robot-simulation) |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/ddongjunn/LeetCode/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/ddongjunn/LeetCode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
 ## Stack
 |  |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-online-stock-span](https://github.com/ddongjunn/LeetCode/tree/master/0901-online-stock-span) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/ddongjunn/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
+| [2696-minimum-string-length-after-removing-substrings](https://github.com/ddongjunn/LeetCode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 ## Design
 |  |
 | ------- |
