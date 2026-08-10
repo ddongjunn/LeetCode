@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ddongjunn/LeetCode/tree/master/0002-add-two-numbers) |
+| [0067-add-binary](https://github.com/ddongjunn/LeetCode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/ddongjunn/LeetCode/tree/master/0069-sqrtx) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/ddongjunn/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ddongjunn/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/ddongjunn/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/ddongjunn/LeetCode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/ddongjunn/LeetCode/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/ddongjunn/LeetCode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/ddongjunn/LeetCode/tree/master/0125-valid-palindrome) |
 | [0165-compare-version-numbers](https://github.com/ddongjunn/LeetCode/tree/master/0165-compare-version-numbers) |
@@ -157,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ddongjunn/LeetCode/tree/master/0067-add-binary) |
 | [0190-reverse-bits](https://github.com/ddongjunn/LeetCode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/ddongjunn/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0401-binary-watch](https://github.com/ddongjunn/LeetCode/tree/master/0401-binary-watch) |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ddongjunn/LeetCode/tree/master/0067-add-binary) |
 | [0844-backspace-string-compare](https://github.com/ddongjunn/LeetCode/tree/master/0844-backspace-string-compare) |
 | [0874-walking-robot-simulation](https://github.com/ddongjunn/LeetCode/tree/master/0874-walking-robot-simulation) |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
