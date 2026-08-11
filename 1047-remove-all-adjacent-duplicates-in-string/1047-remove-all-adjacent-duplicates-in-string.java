@@ -2,10 +2,10 @@ class Solution {
     public String removeDuplicates(String s) {
         StringBuilder sb = new StringBuilder();
         for (char ch : s.toCharArray()) {
-            int lastIndex = sb.length() - 1;
-            
-            if (lastIndex >= 0 && sb.charAt(lastIndex) == ch) {
-                sb.deleteCharAt(lastIndex);
+            int top = sb.length() - 1;
+
+            if (top >= 0 && sb.charAt(top) == ch) {
+                sb.setLength(top);
             } else {
                 sb.append(ch);
             }
