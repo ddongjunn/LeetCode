@@ -6,7 +6,7 @@ class Solution {
 
         int i = 0;
         int j = 0;
-        while (i <= len && j <= len) {
+        while (i < len && j < len) {
             int num1 = 0;
             if (v1.length > i) {
                 num1 = Integer.parseInt(v1[i]);
@@ -25,7 +25,7 @@ class Solution {
             i++;
             j++;
         }
-        
+
         return 0;
     }
 }
