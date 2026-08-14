@@ -1,42 +1,38 @@
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
-        Set<String> obstacle = new HashSet<>();
-        for (int i = 0; i < obstacles.length; i++) {
-            obstacle.add(obstacles[i][0] + ":" + obstacles[i][1]);
-        }
-        
-        int[][] dirs = {
-            {0, 1},
-            {1, 0},
-            {0, -1},
-            {-1, 0},
+        Set<String> set = new HashSet<>();
+        for (int[] obstacle : obstacles) {
+            set.add(obstacle[0] + "," + obstacle[1]);
         };
 
-        int maxDistance = 0;
-        int dir = 0;
+        int[][] dirs = {
+            {0, 1}, //북
+            {1, 0}, //동
+            {0, -1}, //남
+            {-1, 0} //서
+        };
+        
+        int max = 0;
         int x = 0;
         int y = 0;
+        int dir = 0;
         for (int cmd : commands) {
-
-            if (-1 == cmd) {
+            if (cmd == -1) {
                 dir = (dir + 1) % 4;
-            } else if (-2 == cmd) {
+            } else if (cmd == -2){
                 dir = (dir + 3) % 4;
             } else {
                 for (int i = 0; i < cmd; i++) {
                     int nx = x + dirs[dir][0];
                     int ny = y + dirs[dir][1];
-
-                    if (obstacle.contains(nx+":"+ny)) {
-                        break;
-                    }
+                    if (set.contains(nx + "," + ny)) break;
 
                     x = nx;
                     y = ny;
-                    maxDistance = Math.max(maxDistance, (x * x) + (y * y));
                 }
             }
+            max = Math.max(max, (x * x) + (y * y));
         }
-        return maxDistance;
+        return max;
     }
 }
