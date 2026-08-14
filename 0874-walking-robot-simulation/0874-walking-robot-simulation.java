@@ -1,8 +1,8 @@
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
-        Set<String> set = new HashSet<>();
+        Set<Long> set = new HashSet<>();
         for (int[] obstacle : obstacles) {
-            set.add(obstacle[0] + "," + obstacle[1]);
+            set.add(encode(obstacle[0], obstacle[1]));
         };
 
         int[][] dirs = {
@@ -25,7 +25,7 @@ class Solution {
                 for (int i = 0; i < cmd; i++) {
                     int nx = x + dirs[dir][0];
                     int ny = y + dirs[dir][1];
-                    if (set.contains(nx + "," + ny)) break;
+                    if (set.contains(encode(nx, ny))) break;
 
                     x = nx;
                     y = ny;
@@ -34,5 +34,9 @@ class Solution {
             max = Math.max(max, (x * x) + (y * y));
         }
         return max;
+    }
+
+    private long encode(int x, int y) {
+        return x * 100000L + y;
     }
 }
