@@ -1,7 +1,6 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        List<Integer> list = new ArrayList<>();
         dfs(0, nums, new ArrayList<>(), result);
         return result;
     }
