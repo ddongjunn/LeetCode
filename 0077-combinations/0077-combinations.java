@@ -16,7 +16,8 @@ class Solution {
             list.add(i);
             dfs(n, k, i + 1, list);
             list.remove(list.size() - 1);
-        }   
+        }
+        return;
     }
 }
 
