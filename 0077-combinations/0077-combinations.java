@@ -1,5 +1,5 @@
 class Solution {
-    private final List<List<Integer>> result = new ArrayList<>();
+    public List<List<Integer>> result = new ArrayList<>();
 
     public List<List<Integer>> combine(int n, int k) {
         dfs(n, k, 1, new ArrayList<>());
