@@ -2,24 +2,20 @@ class Solution {
     private final List<List<Integer>> result = new ArrayList<>();
 
     public List<List<Integer>> combine(int n, int k) {
-        dfs(n, k, 1, new ArrayList<>(), new boolean[n + 1]);
+        dfs(n, k, 1, new ArrayList<>());
         return result;
     }
 
-    public void dfs (int n, int k, int idx, List<Integer> list, boolean[] isUsed) {
+    public void dfs (int n, int k, int idx, List<Integer> list) {
         if (list.size() == k) {
             result.add(new ArrayList<>(list));
             return;
         }
 
         for (int i = idx; i <= n; i++) {
-            if (isUsed[i]) continue;
-
-            isUsed[i] = true;
             list.add(i);
-            dfs(n, k, i + 1, list, isUsed);
+            dfs(n, k, i + 1, list);
             list.remove(list.size() - 1);
-            isUsed[i] = false;
         }   
     }
 }
