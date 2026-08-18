@@ -1,26 +1,32 @@
 class Solution {
     public List<String> letterCombinations(String digits) {
-        String[] letters = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        List<String> letter = new ArrayList<>();
+        String[] letters = {
+            "",     // 0
+            "",     // 1
+            "abc",  // 2
+            "def",  // 3
+            "ghi",  // 4
+            "jkl",  // 5
+            "mno",  // 6
+            "pqrs", // 7
+            "tuv",  // 8
+            "wxyz"  // 9
+        };
+        List<String> result = new ArrayList<>();
+        dfs(0, "", digits, letters, result);
+        return result;
+    }
 
-        if(digits.length() == 0){
-            return letter;
+    public void dfs (int idx, String candidates, String digits, String[] letters, List<String> result) {
+        if (idx == digits.length()) {
+            result.add(candidates);
+            return;
         }
-
-        Queue<String> q = new LinkedList<String>();
-        q.add("");
-
-        while (!q.isEmpty()) {
-            String s = q.poll();
-            if (s.length() != digits.length()){
-                String word = letters[(digits.charAt(s.length()) - '0') - 2];
-                for (int i=0; i<word.length(); i++){
-                    q.add(s + word.charAt(i));
-                }
-            }else{
-                letter.add(s);
-            } 
+        
+        char digit = digits.charAt(idx);
+        String options = letters[digit - '0'];
+        for (int i = 0; i < options.length(); i++) {
+            dfs(idx + 1, candidates + options.charAt(i), digits, letters, result);
         }
-        return letter;
     }
 }
