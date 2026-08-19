@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
 | [1260-shift-2d-grid](https://github.com/ddongjunn/LeetCode/tree/master/1260-shift-2d-grid) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/ddongjunn/LeetCode/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
+| [1386-cinema-seat-allocation](https://github.com/ddongjunn/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/ddongjunn/LeetCode/tree/master/1848-minimum-distance-to-the-target-element) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/ddongjunn/LeetCode/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/ddongjunn/LeetCode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/ddongjunn/LeetCode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1169-invalid-transactions](https://github.com/ddongjunn/LeetCode/tree/master/1169-invalid-transactions) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/ddongjunn/LeetCode/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
+| [1386-cinema-seat-allocation](https://github.com/ddongjunn/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1496-path-crossing](https://github.com/ddongjunn/LeetCode/tree/master/1496-path-crossing) |
 ## Backtracking
 |  |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0190-reverse-bits](https://github.com/ddongjunn/LeetCode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/ddongjunn/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0401-binary-watch](https://github.com/ddongjunn/LeetCode/tree/master/0401-binary-watch) |
+| [1386-cinema-seat-allocation](https://github.com/ddongjunn/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/ddongjunn/LeetCode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 ## Divide and Conquer
 |  |
@@ -274,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/ddongjunn/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0881-boats-to-save-people](https://github.com/ddongjunn/LeetCode/tree/master/0881-boats-to-save-people) |
+| [1386-cinema-seat-allocation](https://github.com/ddongjunn/LeetCode/tree/master/1386-cinema-seat-allocation) |
 ## Dynamic Programming
 |  |
 | ------- |
