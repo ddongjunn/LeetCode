@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/ddongjunn/LeetCode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/ddongjunn/LeetCode/tree/master/0069-sqrtx) |
 | [1903-largest-odd-number-in-string](https://github.com/ddongjunn/LeetCode/tree/master/1903-largest-odd-number-in-string) |
+| [1927-sum-game](https://github.com/ddongjunn/LeetCode/tree/master/1927-sum-game) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/ddongjunn/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/ddongjunn/LeetCode/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/ddongjunn/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1869-longer-contiguous-segments-of-ones-than-zeros](https://github.com/ddongjunn/LeetCode/tree/master/1869-longer-contiguous-segments-of-ones-than-zeros) |
 | [1903-largest-odd-number-in-string](https://github.com/ddongjunn/LeetCode/tree/master/1903-largest-odd-number-in-string) |
+| [1927-sum-game](https://github.com/ddongjunn/LeetCode/tree/master/1927-sum-game) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/ddongjunn/LeetCode/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/ddongjunn/LeetCode/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/ddongjunn/LeetCode/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -282,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-boats-to-save-people](https://github.com/ddongjunn/LeetCode/tree/master/0881-boats-to-save-people) |
 | [1386-cinema-seat-allocation](https://github.com/ddongjunn/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1903-largest-odd-number-in-string](https://github.com/ddongjunn/LeetCode/tree/master/1903-largest-odd-number-in-string) |
+| [1927-sum-game](https://github.com/ddongjunn/LeetCode/tree/master/1927-sum-game) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -358,4 +361,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/ddongjunn/LeetCode/tree/master/0796-rotate-string) |
+## Game Theory
+|  |
+| ------- |
+| [1927-sum-game](https://github.com/ddongjunn/LeetCode/tree/master/1927-sum-game) |
 <!---LeetCode Topics End-->
