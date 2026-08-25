@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/ddongjunn/LeetCode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3433-count-mentions-per-user](https://github.com/ddongjunn/LeetCode/tree/master/3433-count-mentions-per-user) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/ddongjunn/LeetCode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/ddongjunn/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Binary Search
 |  |
 | ------- |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/ddongjunn/LeetCode/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
 | [1386-cinema-seat-allocation](https://github.com/ddongjunn/LeetCode/tree/master/1386-cinema-seat-allocation) |
 | [1496-path-crossing](https://github.com/ddongjunn/LeetCode/tree/master/1496-path-crossing) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/ddongjunn/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Backtracking
 |  |
 | ------- |
